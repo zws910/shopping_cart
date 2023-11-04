@@ -1,0 +1,29 @@
+.product-wrapper {
+  padding: 0;
+}
+.item-name {
+  font-size: 12px;
+  line-height: 14px;
+  text-align: left;
+}
+.item-price {
+  font-size: 14px;
+  text-align: left;
+}
+.add-btn {
+  margin-top: 150px;
+}
+.card-overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  justify-content: center;
+  align-items: center;
+}
+.product-wrapper:hover .card-overlay {
+  display: flex;
+}
