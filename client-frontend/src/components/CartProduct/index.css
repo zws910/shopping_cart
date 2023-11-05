@@ -1,0 +1,22 @@
+.cart-product {
+  display: flex;
+  height: 100px;
+}
+.item-desc {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 10px;
+}
+.item-name {
+  font-size: 14px;
+}
+.item-quantity {
+  font-size: 12px;
+  color: #5b5a5e;
+  margin-top: 10px;
+}
+.unit-price {
+  color: #eabf00;
+  font-size: 18px;
+}

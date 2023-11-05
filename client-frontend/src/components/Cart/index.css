@@ -1,0 +1,35 @@
+.cart-btn {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 0 !important;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #1b1a20;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.cart-icon {
+  width: 80%;
+}
+
+.drawer-container {
+  /* background-color: #0c0b10 !important;
+  color: #ececec !important */
+}
+.drawer-body {
+  display: flex;
+  flex-direction: column;
+}
+.subtotal {
+  font-size: 20px;
+  align-self: flex-end;
+}
+.empty-cart {
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

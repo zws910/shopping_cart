@@ -1,5 +1,13 @@
 .product-wrapper {
   padding: 0;
+  width: 280px;
+  height: 450px;
+  border: none;
+}
+.item-picture {
+  width: 278px;
+  height: 370px;
+  /* min-height: 370px; */
 }
 .item-name {
   font-size: 12px;
