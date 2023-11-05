@@ -1,0 +1,19 @@
+.order-detail {
+  display: flex;
+}
+
+.carousel {
+  width: 560px;
+  height: 750px;
+}
+.carousel-image {
+  max-width: 100%;
+}
+.detail-desc {
+  padding: 20px;
+  margin-left: 50px;
+  text-align: start;
+}
+.add-btn {
+  border-radius: 0 !important;
+}

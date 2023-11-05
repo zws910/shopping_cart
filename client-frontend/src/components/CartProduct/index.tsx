@@ -1,7 +1,7 @@
 import { getAssestsFile } from '@/utils/utils'
 import { Button, ButtonGroup } from 'react-bootstrap'
-import { useSelector, useDispatch } from 'react-redux'
-import { showCart, hideCart, add, reduce } from '@/store/cartSlice'
+import { useDispatch } from 'react-redux'
+import { add, reduce } from '@/store/cartSlice'
 import './index.css'
 
 interface CartProductProps {

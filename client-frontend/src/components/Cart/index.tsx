@@ -1,6 +1,6 @@
-import { Button, Row, Col, Offcanvas } from 'react-bootstrap'
+import { Button, Offcanvas } from 'react-bootstrap'
 import './index.css'
-import { useState, useMemo } from 'react'
+import {  useMemo } from 'react'
 import type { RootState } from '@/store'
 import { useSelector, useDispatch } from 'react-redux'
 import { showCart, hideCart } from '@/store/cartSlice'
